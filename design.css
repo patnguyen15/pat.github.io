@@ -1,0 +1,196 @@
+
+
+.navbar-default{
+    background-color: #ffc107;
+}
+
+/*body{
+	padding-top:70px;
+}*/
+
+#pname{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size:55px;
+    display: block;
+    text-shadow: 2.5px 2.5px #A6192E;
+}
+
+body, html {
+    height: 100%;
+    
+    margin: 0;
+
+}
+
+.bigicon{
+    font-size: 140;
+}
+
+.contacticon{
+    font-size: 45;
+}
+.icons{
+    
+    font-size:22;
+}
+
+.important{
+    font-weight: 700;
+}
+
+.pp{
+	margin: 1.66%;
+	border-radius: 10%;
+}
+
+/*
+.jumbotron {
+    background: url('https://source.unsplash.com/NPKk_3ZK2DY') no-repeat center center;
+    background-size: 100% 100%;
+    color: #fff;
+    min-height: 800px;
+
+}*/
+
+.info{
+    font-size: 18px;
+}
+
+.down {
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 47%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    width: 100px;
+    height: 120px;
+    
+    transform: translate(-50%, 20%);
+    cursor: pointer;
+}
+
+.element{
+	font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+	font-size: 35px;
+	display: inline;
+
+}
+
+.typed-cursor{
+	opacity:1;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation:blink 0.7s infinite;
+	animation:blink 0.7s infinite;
+	font-size: 32px;
+}
+
+@keyframes blink{
+	0% {opacity:1;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-webkit-keyframes blink{
+	0% {opacity:1;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-moz-keyframes blink{
+	0% {opacity:1;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+/*
+.parallax {
+    /* The image used */
+
+    /* Full height */
+    /*height: 100%; */
+    /*position: relative;
+    padding-top:2cm;
+
+    /* Create the parallax scrolling effect 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('https://source.unsplash.com/jwIk4Z3Msi4');
+    height:100%;
+    width: 100%;
+   	background-size: 100% 100%;
+
+}
+*/
+
+.parallax{
+
+
+height:100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-color: #091F2C;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+
+#content{
+	
+	text-align:center;
+	padding-top:30%;
+	
+    /*
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				0px 8px 13px rgba(0,0,0,0.1),
+				0px 18px 23px rgba(0,0,0,0.1)
+	;
+    */
+	color:white;
+}
+
+.parallax2{
+    /* The image used */
+
+    /* Full height */
+    /*height: 100%; */
+    position: relative;
+   
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    background-image: url('https://source.unsplash.com/Ika0ywjFHRM');
+    height:100%;
+    width: 100%;
+   background-size: 100% 100%;
+}
+
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
