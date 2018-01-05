@@ -1,5 +1,7 @@
-@media screen and (orientation:portrait) { height: 100vh;
-            width: 100vw; }
+@media screen and (orientation:portrait) { .parallax{
+    height:100%;
+    width:100%;
+    } }
  @media screen and (orientation:landscape) {height: 100vh;
             width: 100vw; }
 
@@ -160,31 +162,9 @@ body, html {
 	color:white;
 }
 
-.breaker{
-    color : #091F2C;
-  border : 1px solid #091F2C;
-  margin-bottom : 5px;
-}
 
-.parallax2{
-    /* The image used */
 
-    /* Full height */
-    /*height: 100%; */
-    position: relative;
-   
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-   
-    background-image: url('https://source.unsplash.com/Ika0ywjFHRM');
-    height:100%;
-    width: 100%;
-   background-size: 100% 100%;
-}
-
+/*
 
 .bounce {
   -moz-animation: bounce 2s infinite;
@@ -204,3 +184,24 @@ body, html {
     transform: translateY(-15px);
   }
 }
+
+.parallax2{
+    /* The image used */
+
+    /* Full height */
+    /*height: 100%; 
+    position: relative;
+   
+
+    /* Create the parallax scrolling effect 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    background-image: url('https://source.unsplash.com/Ika0ywjFHRM');
+    height:100%;
+    width: 100%;
+   background-size: 100% 100%;
+}
+
+*/
