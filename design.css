@@ -1,6 +1,7 @@
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    .parallax{ max-width: 100%; }
-}
+@media screen and (orientation:portrait) { height: 100vh;
+            width: 100vw; }
+ @media screen and (orientation:landscape) {height: 100vh;
+            width: 100vw; }
 
 .navbar-default{
     background-color: #ffc107;
