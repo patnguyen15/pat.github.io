@@ -8,6 +8,14 @@
 	padding-top:70px;
 }*/
 
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size:40px;
+    display: block;
+    text-shadow: 2.5px 2.5px #A6192E;
+}
+
 #pname{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -16,11 +24,16 @@
     text-shadow: 2.5px 2.5px #A6192E;
 }
 
-body, html {
-    height: 100%;
+body{
+    color:white;
     
-    margin: 0;
-
+background: -moz-linear-gradient(270deg, rgba(9,31,44,1) 0%, rgba(0,128,128,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(9,31,44,1)), color-stop(100%, rgba(0,128,128,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(270deg, rgba(9,31,44,1) 0%, rgba(0,128,128,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(270deg, rgba(9,31,44,1) 0%, rgba(0,128,128,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(270deg, rgba(9,31,44,1) 0%, rgba(0,128,128,1) 100%); /* ie10+ */
+background: linear-gradient(180deg, rgba(9,31,44,1) 0%, rgba(0,128,128,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#091F2C', endColorstr='#008080',GradientType=0 ); /* ie6-9 */
 }
 
 .bigicon{
@@ -29,7 +42,7 @@ body, html {
 
 .contacticon{
     font-size: 45;
-    color: black;
+    color: white;
 }
 .icons{
     
@@ -135,7 +148,7 @@ body, html {
     height: 400px;
     width: 100%;
     background-size: 100% 100%;
-    background-color: #091F2C;
+    /*background-color: #091F2C;*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
